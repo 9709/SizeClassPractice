@@ -26,14 +26,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		17D5EDA52225ED40007CB15C /* Size Classes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Size Classes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17D5EDA52225ED40007CB15C /* Size Class Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Size Class Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17D5EDA82225ED40007CB15C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17D5EDAA2225ED40007CB15C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		17D5EDAD2225ED40007CB15C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		17D5EDAF2225ED41007CB15C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17D5EDB22225ED41007CB15C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17D5EDB42225ED41007CB15C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		17D5EDB92225ED41007CB15C /* Size ClassesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Size ClassesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17D5EDB92225ED41007CB15C /* Size Class PracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Size Class PracticeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17D5EDBD2225ED41007CB15C /* Size_ClassesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Size_ClassesTests.swift; sourceTree = "<group>"; };
 		17D5EDBF2225ED41007CB15C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,8 +59,8 @@
 		17D5ED9C2225ED40007CB15C = {
 			isa = PBXGroup;
 			children = (
-				17D5EDA72225ED40007CB15C /* Size Classes */,
-				17D5EDBC2225ED41007CB15C /* Size ClassesTests */,
+				17D5EDA72225ED40007CB15C /* Size Class Practice */,
+				17D5EDBC2225ED41007CB15C /* Size Class Practice Tests */,
 				17D5EDA62225ED40007CB15C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,13 +68,13 @@
 		17D5EDA62225ED40007CB15C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				17D5EDA52225ED40007CB15C /* Size Classes.app */,
-				17D5EDB92225ED41007CB15C /* Size ClassesTests.xctest */,
+				17D5EDA52225ED40007CB15C /* Size Class Practice.app */,
+				17D5EDB92225ED41007CB15C /* Size Class PracticeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		17D5EDA72225ED40007CB15C /* Size Classes */ = {
+		17D5EDA72225ED40007CB15C /* Size Class Practice */ = {
 			isa = PBXGroup;
 			children = (
 				17D5EDA82225ED40007CB15C /* AppDelegate.swift */,
@@ -84,24 +84,24 @@
 				17D5EDB12225ED41007CB15C /* LaunchScreen.storyboard */,
 				17D5EDB42225ED41007CB15C /* Info.plist */,
 			);
-			path = "Size Classes";
+			path = "Size Class Practice";
 			sourceTree = "<group>";
 		};
-		17D5EDBC2225ED41007CB15C /* Size ClassesTests */ = {
+		17D5EDBC2225ED41007CB15C /* Size Class Practice Tests */ = {
 			isa = PBXGroup;
 			children = (
 				17D5EDBD2225ED41007CB15C /* Size_ClassesTests.swift */,
 				17D5EDBF2225ED41007CB15C /* Info.plist */,
 			);
-			path = "Size ClassesTests";
+			path = "Size Class Practice Tests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		17D5EDA42225ED40007CB15C /* Size Classes */ = {
+		17D5EDA42225ED40007CB15C /* Size Class Practice */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 17D5EDC22225ED41007CB15C /* Build configuration list for PBXNativeTarget "Size Classes" */;
+			buildConfigurationList = 17D5EDC22225ED41007CB15C /* Build configuration list for PBXNativeTarget "Size Class Practice" */;
 			buildPhases = (
 				17D5EDA12225ED40007CB15C /* Sources */,
 				17D5EDA22225ED40007CB15C /* Frameworks */,
@@ -111,14 +111,14 @@
 			);
 			dependencies = (
 			);
-			name = "Size Classes";
+			name = "Size Class Practice";
 			productName = "Size Classes";
-			productReference = 17D5EDA52225ED40007CB15C /* Size Classes.app */;
+			productReference = 17D5EDA52225ED40007CB15C /* Size Class Practice.app */;
 			productType = "com.apple.product-type.application";
 		};
-		17D5EDB82225ED41007CB15C /* Size ClassesTests */ = {
+		17D5EDB82225ED41007CB15C /* Size Class PracticeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 17D5EDC52225ED41007CB15C /* Build configuration list for PBXNativeTarget "Size ClassesTests" */;
+			buildConfigurationList = 17D5EDC52225ED41007CB15C /* Build configuration list for PBXNativeTarget "Size Class PracticeTests" */;
 			buildPhases = (
 				17D5EDB52225ED41007CB15C /* Sources */,
 				17D5EDB62225ED41007CB15C /* Frameworks */,
@@ -129,9 +129,9 @@
 			dependencies = (
 				17D5EDBB2225ED41007CB15C /* PBXTargetDependency */,
 			);
-			name = "Size ClassesTests";
+			name = "Size Class PracticeTests";
 			productName = "Size ClassesTests";
-			productReference = 17D5EDB92225ED41007CB15C /* Size ClassesTests.xctest */;
+			productReference = 17D5EDB92225ED41007CB15C /* Size Class PracticeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -153,7 +153,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 17D5EDA02225ED40007CB15C /* Build configuration list for PBXProject "Size Classes" */;
+			buildConfigurationList = 17D5EDA02225ED40007CB15C /* Build configuration list for PBXProject "Size Class Practice" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -166,8 +166,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				17D5EDA42225ED40007CB15C /* Size Classes */,
-				17D5EDB82225ED41007CB15C /* Size ClassesTests */,
+				17D5EDA42225ED40007CB15C /* Size Class Practice */,
+				17D5EDB82225ED41007CB15C /* Size Class PracticeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -215,7 +215,7 @@
 /* Begin PBXTargetDependency section */
 		17D5EDBB2225ED41007CB15C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 17D5EDA42225ED40007CB15C /* Size Classes */;
+			target = 17D5EDA42225ED40007CB15C /* Size Class Practice */;
 			targetProxy = 17D5EDBA2225ED41007CB15C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -409,7 +409,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Size Classes.app/Size Classes";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Size Class Practice.app/Size Class Practice";
 			};
 			name = Debug;
 		};
@@ -430,14 +430,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Size Classes.app/Size Classes";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Size Class Practice.app/Size Class Practice";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		17D5EDA02225ED40007CB15C /* Build configuration list for PBXProject "Size Classes" */ = {
+		17D5EDA02225ED40007CB15C /* Build configuration list for PBXProject "Size Class Practice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				17D5EDC02225ED41007CB15C /* Debug */,
@@ -446,7 +446,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		17D5EDC22225ED41007CB15C /* Build configuration list for PBXNativeTarget "Size Classes" */ = {
+		17D5EDC22225ED41007CB15C /* Build configuration list for PBXNativeTarget "Size Class Practice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				17D5EDC32225ED41007CB15C /* Debug */,
@@ -455,7 +455,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		17D5EDC52225ED41007CB15C /* Build configuration list for PBXNativeTarget "Size ClassesTests" */ = {
+		17D5EDC52225ED41007CB15C /* Build configuration list for PBXNativeTarget "Size Class PracticeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				17D5EDC62225ED41007CB15C /* Debug */,
